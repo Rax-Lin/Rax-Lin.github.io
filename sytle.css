@@ -1,0 +1,71 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif; /* 設定基本字體 */
+    line-height: 1.6; /* 設定行高 */
+    margin: 0; /* 移除瀏覽器預設邊距 */
+    padding: 0; /* 移除瀏覽器預設內邊距 */
+    background-color: #f4f4f4; /* 設定背景顏色 */
+    color: #333; /* 設定文字顏色 */
+}
+
+header {
+    background-color: #333; /* 頭部背景色 */
+    color: #fff; /* 頭部文字顏色 */
+    padding: 1rem 0; /* 上下內邊距 1rem，左右 0 */
+    text-align: center; /* 文字置中 */
+}
+
+header h1 {
+    margin: 0; /* 移除標題預設邊距 */
+}
+
+main {
+    padding: 20px; /* 主內容區塊內邊距 */
+    max-width: 800px; /* 主內容區塊最大寬度 */
+    margin: 20px auto; /* 上下邊距 20px，左右自動 (置中) */
+    background-color: #fff; /* 主內容區塊背景色 */
+    border-radius: 8px; /* 圓角邊框 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 陰影效果 */
+}
+
+section {
+    margin-bottom: 20px; /* 每個區塊下方邊距 */
+    padding-bottom: 10px; /* 每個區塊下方內邊距 */
+    border-bottom: 1px solid #eee; /* 底部細線 */
+}
+
+section:last-child {
+    border-bottom: none; /* 最後一個區塊移除底部細線 */
+}
+
+h2 {
+    color: #007bff; /* 區塊標題顏色 */
+}
+
+ul {
+    list-style: none; /* 移除列表項目符號 */
+    padding: 0; /* 移除列表預設內邊距 */
+}
+
+ul li {
+    margin-bottom: 5px; /* 列表項目下方邊距 */
+}
+
+a {
+    color: #007bff; /* 連結顏色 */
+    text-decoration: none; /* 移除連結下劃線 */
+}
+
+a:hover {
+    text-decoration: underline; /* 鼠標懸停時顯示下劃線 */
+}
+
+footer {
+    text-align: center; /* 頁腳文字置中 */
+    padding: 20px; /* 頁腳內邊距 */
+    background-color: #333; /* 頁腳背景色 */
+    color: #fff; /* 頁腳文字顏色 */
+    font-size: 0.9em; /* 字體大小 */
+    margin-top: 20px; /* 頁腳上方邊距 */
+}
